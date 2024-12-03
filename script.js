@@ -90,3 +90,7 @@ const observer = new IntersectionObserver((entries) => {
 }, separador);
 
 sections.forEach((element) => observer.observe(element));
+
+if (screen.orientation && screen.orientation.lock) {
+  screen.orientation.lock("landscape").catch(() => {});
+}
