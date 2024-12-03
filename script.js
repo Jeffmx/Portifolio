@@ -91,8 +91,4 @@ const observer = new IntersectionObserver((entries) => {
 
 sections.forEach((element) => observer.observe(element));
 
-document.addEventListener("click", () => {
-  if (screen.orientation && screen.orientation.lock) {
-      screen.orientation.lock("landscape").catch(() => {});
-  }
-});
+alert(window.innerHeight)
