@@ -91,4 +91,6 @@ const observer = new IntersectionObserver((entries) => {
 
 sections.forEach((element) => observer.observe(element));
 
-alert(window.innerHeight)
+let vh= window.innerHeight/100;
+// document.documentElement.style.setProperty('--vh', `${vh}px`);
+alert(vh)
