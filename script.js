@@ -90,7 +90,3 @@ const observer = new IntersectionObserver((entries) => {
 }, separador);
 
 sections.forEach((element) => observer.observe(element));
-
-let vh= window.innerHeight/100;
-// document.documentElement.style.setProperty('--vh', `${vh}px`);
-alert(vh)
