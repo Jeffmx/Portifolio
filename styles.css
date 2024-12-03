@@ -75,6 +75,7 @@ body{
 
 .start_container{
     width: 90%;
+    height: 89svh;
     padding: 2vw;
     padding-top: 7vh;
     justify-content: space-around;
