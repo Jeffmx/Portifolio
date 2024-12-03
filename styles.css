@@ -84,7 +84,7 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     row-gap: 10svh;
-    background: red;
+    background: green;
     grid-template-areas: 
     'texto texto logo'
     'link sobre sobre';
@@ -491,7 +491,7 @@ body{
 }
 
 .formacao_path{
-    height: 89vh;
+    height: 89svh;
     width: 28vw;
     float: left;
     background-color: var(--cor2);
@@ -588,7 +588,7 @@ body{
 
 .formacao_curso_desc{
     position: relative;
-    height: 89vh;
+    height: 89svh;
     width: 100vw;
 
     clip-path: polygon(100% 0%, 35% 0%,25% 100%, 100% 100%);
@@ -620,7 +620,7 @@ body{
 .formacao_curso{
     position: relative;
     width: 45vw;
-    height: 89vh;
+    height: 89svh;
 
     z-index: 1;
 
