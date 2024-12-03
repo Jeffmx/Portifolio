@@ -891,3 +891,25 @@ body{
     width: 43.9vw;
     animation: spawn .5s ease-out;
 }
+
+.mensagem{
+    position: absolute;
+    z-index: 10;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: black;
+    place-content: center;
+}
+
+.mensagem img{
+    width: 50%;
+    filter: invert();
+}
+
+@media screen and (orientation: portrait) {
+    .mensagem{
+        display: flex;
+        /* justify-items: center; */
+    }
+}
