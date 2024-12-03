@@ -15,6 +15,10 @@
     --dynamicPadding: 0px;
 }
 
+html, body{
+    height: 95%;
+}
+
 body{
     padding: 0 4vh;
     background-color: var(--cor1);
