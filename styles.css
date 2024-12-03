@@ -84,7 +84,7 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     row-gap: 10svh;
-    background: green;
+    background: red;
     grid-template-areas: 
     'texto texto logo'
     'link sobre sobre';
@@ -509,7 +509,7 @@ body{
     width: 5vw;
 
     margin-left: 2vw;
-    margin-top: calc(44.5vh - 16vw);
+    margin-top: calc(44.5svh - 16vw);
 
     display: flex;
     justify-content: center;
@@ -731,7 +731,7 @@ body{
 
 .experiencia_nav{
     position: relative;
-    height: 89vh;
+    height: 89svh;
     width: 45%;
     background-color: var(--ton3);
     overflow-y: scroll;
@@ -804,7 +804,7 @@ body{
 .experiencia_content section{
     position: relative;
     display: none;
-    height: 89vh;
+    height: 89svh;
     grid-template-columns: auto;
     grid-template-rows: 65% 35%;
 }
