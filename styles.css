@@ -84,7 +84,7 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     row-gap: 10svh;
-    background: green;
+    background: red;
     grid-template-areas: 
     'texto texto logo'
     'link sobre sobre';
@@ -367,7 +367,7 @@ body{
 }
 
 .skills_logo{
-    height: 82vh;
+    height: 82svh;
     display: grid;
     box-shadow: 0 0 2vw var(--ton1);
 
