@@ -819,7 +819,7 @@ body{
 
 .experiencia_content section:nth-child(6){
     .content_text_button img{
-        width: 3vw;
+        width: 3vh;
         filter: invert(none);
         transition: .3s;
     }
