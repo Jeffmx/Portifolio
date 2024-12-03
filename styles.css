@@ -84,6 +84,7 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     row-gap: 10svh;
+    background: red;
     grid-template-areas: 
     'texto texto logo'
     'link sobre sobre';
