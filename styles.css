@@ -76,15 +76,15 @@ body{
 .start_container{
     width: 90%;
     padding: 2vw;
-    padding-top: 7vh;
+    padding-top: 7svh;
     justify-content: space-around;
     align-content: flex-start;
     position: relative;
 
     display: grid;
     grid-template-columns: auto auto auto;
-    row-gap: 10svh;
-    background: red;
+    row-gap: 9svh;
+    background: green;
     grid-template-areas: 
     'texto texto logo'
     'link sobre sobre';
